@@ -1,0 +1,42 @@
+div.todo_input_box {
+	/* 배경색 및 크기 조정 */
+	background-color: white;
+	width: 85%;
+	height: 70vh;
+
+	/*페이지 중앙에 나오도록 설정*/
+	margin:  0 auto;
+	margin-top: 10px;
+	
+
+	border-radius: 16px;
+}
+
+div.todo_input_box input {
+
+	/* input box 위치 조정*/
+	margin-top: 10px;
+	padding: 5px;
+
+	/* input box 크기, 모양 조절*/
+	width: 50%;
+	border-radius: 5px;
+
+	/* input box 색 지정 */
+	border: 3px solid gray;
+	outline: none;
+	
+}
+
+div.todo_input_box input:hover {
+
+	/* 마우스 올라갈때 배경색 */
+	background-color: #ddd;
+}
+
+div.todo_input_box input:focus {
+
+	/*input box focus 될때 box 색 지정*/
+	border: 3px solid #00cbff;
+	outline: none;
+}

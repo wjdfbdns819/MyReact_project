@@ -1,0 +1,45 @@
+table {
+
+	border-collapse: collapse;
+	
+	/*Todo list  크기 및 색 지정*/
+	width: 90%;
+	border-top: 4px solid #0086e4;
+	border-bottom: 4px solid #0086e4;
+	
+
+	/*Todo list  위치 지정*/
+	margin: 0 auto;
+	margin-top: 8px;
+
+}
+
+th, td {
+	/* 표 테두리 표시*/
+	border-bottom: 1px solid #0086e4;
+
+}
+
+th:first-of-type, td:first-of-type {
+
+	/* level의 별모양에 따라 크기가 변화하므로 폭을 적절하게 넓힘*/
+	width: 10%;
+}
+
+
+
+thead {	
+	/*main_list 부분 글씨 조절*/
+	font-weight: bold;
+	font-size: 20px;
+}
+
+tbody {
+	/*sub_list 부분 글씨 조절*/
+	width: 90%;
+	font-size: 16px;
+
+}
+
+
+

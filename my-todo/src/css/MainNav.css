@@ -1,0 +1,43 @@
+/*nav box의 css 설정*/
+
+nav.nav_box {
+
+	display: flex;
+
+	/* 배경,글씨색 지정*/
+	background-color: #ffc747;
+	color: white;
+
+	/* nav_box 속하는 부분들? 위치 지정 */
+	justify-content: center;
+	align-items: center;
+}
+
+nav.nav_box a {
+
+	display: inline-block;
+
+	/*nav_box의 글씨색 상속 받도록 설정*/
+	color: inherit;
+
+	/*글씨에 밑줄 제거*/
+	text-decoration: none;
+
+	/*글씨 간격 조정*/
+	padding: 0.8rem;
+	margin-left: 25px;
+
+	/*글씨 크기*/
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+
+nav.nav_box a:hover {
+
+	background-color: #ffdd50;
+
+	/*hover 될때 밑줄 표시*/
+	text-decoration: underline;
+
+}

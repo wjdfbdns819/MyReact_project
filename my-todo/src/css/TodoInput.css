@@ -1,16 +1,4 @@
-div.todo_input_box {
-	/* 배경색 및 크기 조정 */
-	background-color: white;
-	width: 85%;
-	height: 70vh;
 
-	/*페이지 중앙에 나오도록 설정*/
-	margin:  0 auto;
-	margin-top: 10px;
-	
-
-	border-radius: 16px;
-}
 
 div.todo_input_box input {
 
